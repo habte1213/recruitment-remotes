@@ -2,8 +2,6 @@
 
 import { JSX, ReactNode, useState } from "react"
 import Head from "next/head"
-import Image from "next/image";
-import logo from "../public/logo-sm.png";
 
 
 type NextPageWithLayout<P = object> = {
@@ -369,7 +367,7 @@ const RecruitmentHome: NextPageWithLayout = () => {
       <div className="px-4 py-6 sm:px-6 lg:px-8 bg-white">
         <div className="mb-6">
         <h1 className="text-2xl font-bold text-blue-500 flex items-center">
-  <Image src={logo} alt="Logo" width={40} height={40} />
+  {/* <Image src={logo} alt="Logo" width={40} height={40} /> */}
   <span className="ml-2">Recruitment Dashboard</span>
 </h1>
           <p className="mt-1 text-sm text-gray-500">Monitor your recruitment pipeline and candidate applications</p>
